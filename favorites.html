@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.iscrollview.css">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript">
+  		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+
+		var fave_store_name; var store_location_id; var delete_sid;
+
+  		$.ready(function() {
+		    $(".button").forEach(function(button) {
+		        button.bind("touchstart", function() { button.addClass("touched"); });
+		        button.bind("touchend", function() { button.removeClass("touched"); });
+		    });
+		});
+		$(document).ready(function() {
+			$.get('../api/v1/favorites?token='+sessionStorage.token,function(data){
+				$.each(data, function(i, favorites) {
+					if (favorites.customer_id == sessionStorage.user_id) {
+						showFavoriteStores(favorites);
+					}
+				});
+			});
+		});
+		function showFavoriteStores(favorites) {
+			$.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){
+				$.each(data, function(i, s) {
+					if (s.store_id == favorites.store_location_id) {
+						$('#favorites').show();
+						$('#delete-favorites').hide();
+						$('#favorites').append('<li><a href="#">'+s.store_name+'</a></li>');
+					}
+				});
+			});
+		}
+
+		$(document).ready(function() {
+			$('#btn-edit-favorites').show();
+			$('#btn-done-favorites').hide();
+		
+			$('#btn-edit-favorites').click(function() {
+				$('#btn-edit-favorites').hide();
+				$('#btn-done-favorites').show();
+
+				$('#favorites').hide();
+				$('#delete-favorites').show();
+				$('#delete-favorites').children().remove();
+
+				//$('#delete-favorites').append('<li><a href="#">test<button class="btn btn-small btn-danger" style="margin-left: 58%; font-size: 11px">Delete</button></a></li>');
+				$.get('../api/v1/favorites?token='+sessionStorage.token,function(data){
+					$.each(data, function(i, favorites) {
+						if (favorites.customer_id == sessionStorage.user_id) {
+							$.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){
+								$.each(data, function(i, s) {
+									if (s.store_id == favorites.store_location_id) {
+										delete_sid = favorites.store_location_id;
+										$('#favorites').hide();
+										$('#delete-favorites').show();
+										$('#delete-favorites').append('<li><a href="#">'+s.store_name+'<button class="btn btn-small btn-danger" style="margin-left: 58%; font-size: 11px">Delete</button></a></li>');
+									}
+								});
+							});
+						}
+					});
+				});
+			});
+
+			$('#btn-done-favorites').click(function() {
+				// $('#favorites').css('display','block'); $('#delete-favorites').css('display','none');
+				$('#favorites').show(); $('#delete-favorites').hide();
+				$('#btn-edit-favorites').show(); $(this).hide();
+			});
+
+			//delete favorite
+			$('#btn-delete-favorite').click(function() {
+				$('#food_favorites').submit();
+			});
+
+			function deleteFavorite() {
+				$.ajax({
+					type:'POST',
+					url: '../api/v1/favorites?token='+sessionStorage.token+'&store_location_id='+delete_sid+'&delete=true', //kopi's local
+					//url: '/ayalamalls/api/v1/favorites', //my local
+					data:$('#food_favorites').serialize(),
+					success: function(response) {
+			        	window.location.href = "favorites.html";
+			        }
+			    });
+
+			    return false;
+			}
+		});
+		
+		
+  	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="button bordered back" onclick="goBackToMallFeatures();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <a class="label">Home</a>
+                </div>
+            </div>
+            <div class="button bordered no-pointer">
+                <span class="label" id="btn-edit-favorites">Edit</span>
+                <span class="label" id="btn-done-favorites">Done</span>
+            </div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="header search">
+			<input type="text" size="70"/>
+		</div>
+		<div class="favorites-container">
+			<div class="fave-scrollable" id="scrollable">
+				<div class="fave-header">My Favorites</div>
+				<br/>
+				<ul class="nav nav-tabs nav-stacked list-name" id="favorites">
+					<!-- <li><a href="#">test</a></li>
+					<li><a href="#">test</a></li>
+					<li><a href="#">test</a></li>
+					<li><a href="#">test</a></li> -->
+				</ul>
+				<ul class="nav nav-tabs nav-stacked list-name" id="delete-favorites"></ul>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>
+	<form id="food_favorites" name="food_favorites" method="post" onsubmit="return deleteFavorite();">
+		<input type="hidden" id="user_id" name="user_id">
+		<input type="hidden" id="user_id" name="store_id">
+		<input type="hidden" id="user_id" name="store_name">
+	</form>
+</body>
+</html>

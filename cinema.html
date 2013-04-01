@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+	<script type="text/javascript" src="js/footer_icons.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/cinema.js"></script> 
+
+	<!-- for reveal modal -->
+  	<link rel="stylesheet" type="text/css" href="css/reveal.css">
+  	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+  	<!-- end -->
+  	
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+	</script>
+	<script>
+		$(function() { show_active_state('a#now-showing','a#coming-soon'); });
+
+		$.ready(function() {
+			$(".button").forEach(function(button) {
+				button.bind("touchstart", function() { button.addClass("touched"); });
+				button.bind("touchend", function() { button.removeClass("touched"); });
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToMallFeatures();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <a class="label" id="mall-name"></a>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<div id="myModal" class="reveal-modal">
+		<div style="height: 40px !important; width:40px !important;">
+			<img src="img/ajax-loader2.gif" width="30px" height="30px">
+		</div>
+	</div>
+
+	<div class="main-content">
+		<div class="cinema-container">
+			<div id="now-showing-container" style="display:block;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="now_showing"></ul>
+				</div>
+			</div>
+			<div id="coming-soon-container" style="display:none;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="coming_soon"></ul>
+			    </div>
+			</div>
+		</div>
+		<div class="cinema-footer">
+			<a href="#now-showing-container" id="now-showing">
+				<div class="movie-sched-option">
+					<img id="now-showing-icon" src="img/360Art/now-showing-active.png" width="31.8px"><br/>
+					<span>Now Showing</span>
+				</div>
+			</a>
+			<a href="#coming-soon-container" id="coming-soon">
+				<div class="movie-sched-option">
+					<img id="coming-soon-icon" src="img/360Art/coming-soon.png" width="35px" height="40px"><br/>
+					<span>Coming Soon</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

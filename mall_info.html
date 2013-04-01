@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script>
+  		$(document).ready(function() {
+			//$.get("../api/v1/malls",function(data){ //kopi's local
+			$.get("/ayalamalls/api/v1/malls.json",function(data){
+				$.each(data, function(i, mall_info) {
+					if (mall_info.id == sessionStorage.mall_id) {
+						$('#mall-name').html(mall_info.name);
+						$('#mall-info-header').append('<img src="' + mall_info.logo_url + '" width="auto" height="64px" class="mall-logo">');
+						$('#mall-pic').append('<img src="' + mall_info.photo_url + '" width="100%" height="135px">');
+						$('#mall-phone-num').html('Mall Phone #: ' + mall_info.phone_number);
+						$('#mall-info-btn').append('<a href="mailto:'+mall_info.email+'"><img src="img/360Art/button_email_74x16.png"></a>');
+					}
+				});
+			});
+		 });
+  	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToMallFeatures();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label" id="mall-name"></span>
+                </div>
+            </div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="black-container">
+			<div class="mall-info-header" id="mall-info-header">
+				<div style="margin: 0 auto;"></div>
+			</div>
+			<div style="margin: 0 auto;"><img style="width:100%;" src="img/360Art/cell_perference_seperator_234x2.png"></div>
+			<div class="mall-pic" id="mall-pic"></div>
+			<h2 class="mall-phone-num" id="mall-phone-num"></h2>
+			<div class="mall-info-btn" id="mall-info-btn">
+				<a href="mall_location.html"><img src="img/360Art/button_showOnMap_74x16.png"></a>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

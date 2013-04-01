@@ -1,0 +1,4042 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Movie>
+	<Schedule>
+		<id>12300</id>
+		<theater>Abreeza</theater>
+		<theater_code>ABRZ</theater_code>
+		<cinema>1</cinema>
+		<movie_title>(2D) LES MISERABLES</movie_title>
+		<rating>PG</rating>
+		<price>Php 150.00</price>
+		<screening>1/18/2013 12:15:00 PM</screening>
+		<seat_type>Guaranteed Seats</seat_type>
+	</Schedule>
+<Schedule>
+<id>12301</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12302</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12303</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12304</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/19/2013 12:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12305</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/19/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12306</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/19/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12307</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/19/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12308</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/20/2013 12:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12309</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/20/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12310</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/20/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12311</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/20/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12312</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 2:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12313</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 3:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12314</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 5:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12315</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12316</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12317</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12318</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 2:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12319</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12320</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 135.00</price>
+<screening>1/18/2013 6:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12321</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 135.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12322</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12323</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12324</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12325</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>12326</id>
+<theater>Abreeza</theater>
+<theater_code>ABRZ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 125.00</price>
+<screening>1/18/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2964</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2965</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2974</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2966</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 11:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2967</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/19/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2968</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/19/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2969</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/19/2013 11:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2970</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/20/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2971</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/20/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2972</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/20/2013 7:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>2973</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/20/2013 11:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187423</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187424</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 4:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187425</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187426</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 9:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187427</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187428</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187429</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 5:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187434</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 2:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187435</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187436</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187437</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>4</cinema>
+<movie_title>ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 10:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187430</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187431</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187432</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>187433</id>
+<theater>Alabang Town Center</theater>
+<theater_code>ATC</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113670</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113671</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113672</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113673</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113678</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/19/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113679</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/19/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113680</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/19/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113681</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1D</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 160.00</price>
+<screening>1/19/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113666</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113667</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113668</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113669</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113674</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/19/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113675</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/19/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113676</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/19/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113677</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/19/2013 9:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113682</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/20/2013 2:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113683</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/20/2013 5:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113684</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>1P</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/20/2013 8:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113723</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113724</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113725</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113726</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113727</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2D</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113728</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113729</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113730</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113731</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113732</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>2P</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113733</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 1:35:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113734</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113735</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113736</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 7:20:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113737</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3D</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113738</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 1:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113739</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113740</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113741</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113742</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>3P</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113743</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 12:55:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113744</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 2:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113745</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113746</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 7:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113747</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4D</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>113748</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113749</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>113750</id>
+<theater>Ayala Center Cebu</theater>
+<theater_code>ACC</theater_code>
+<cinema>4P</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1505</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1506</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1510</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1511</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1515</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1516</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1520</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1521</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1525</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 7:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1526</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1436</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1437</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1438</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1439</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1440</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1446</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1447</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1448</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1449</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1450</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/19/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1460</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1461</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1462</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1463</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1464</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/20/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1474</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1475</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1476</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1477</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1478</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/21/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1488</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1489</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 2:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1490</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1491</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1492</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/22/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1441</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1442</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1443</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1444</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1445</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1451</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1452</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1453</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1454</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1455</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1465</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1466</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1467</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1468</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1469</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1479</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1480</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1481</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1482</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1483</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1493</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 12:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1494</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1495</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1496</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1497</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>3</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1403</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1404</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1405</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1406</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1456</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1457</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1458</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1459</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/19/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1470</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1471</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1472</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1473</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/20/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1484</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1485</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1486</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1487</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/21/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1498</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 12:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1499</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1500</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>1501</id>
+<theater>Centrio</theater>
+<theater_code>CMC</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 110.00</price>
+<screening>1/22/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109628</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 12:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109629</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 2:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109630</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109631</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109632</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 8:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109633</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 11:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109634</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 12:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109635</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 3:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109636</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109637</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 7:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109638</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109639</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 1:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109640</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 4:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109641</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109642</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 9:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109643</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 1:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109644</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109645</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109646</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109647</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 12:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109648</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 2:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109649</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 5:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109650</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109651</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>5</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109498</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109499</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 4:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109500</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 7:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109501</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 10:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109503</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/19/2013 4:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109504</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/19/2013 7:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109505</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/19/2013 10:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109506</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/20/2013 12:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109507</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/20/2013 3:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109508</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/20/2013 7:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109509</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>6</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 210.00</price>
+<screening>1/20/2013 10:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109652</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 12:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109653</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 3:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109654</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>109655</id>
+<theater>Glorietta 4</theater>
+<theater_code>G4</theater_code>
+<cinema>7</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>161314</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 12:10:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161315</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 2:25:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161316</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161317</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 6:55:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161318</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:10:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161319</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 12:25:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161320</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161321</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 6:35:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>161322</id>
+<theater>Greenbelt 1</theater>
+<theater_code>GB1</theater_code>
+<cinema>2</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>200015</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200016</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200017</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 5:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200018</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/18/2013 8:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200019</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/18/2013 11:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199907</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/18/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199908</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/18/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199909</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/18/2013 11:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199910</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/19/2013 1:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199911</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/19/2013 4:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199912</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/19/2013 11:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199913</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/20/2013 1:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199914</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/20/2013 4:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199915</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/20/2013 7:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>199916</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 230.00</price>
+<screening>1/20/2013 11:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200020</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 2:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200021</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 4:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200022</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 6:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200023</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 8:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200024</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>3</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 11:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200025</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200026</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 5:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200027</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 8:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200028</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 210.00</price>
+<screening>1/18/2013 10:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200029</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 1:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200030</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 3:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200031</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 6:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200032</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 8:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>200033</id>
+<theater>Greenbelt 3</theater>
+<theater_code>GB3</theater_code>
+<cinema>5</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 10:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4115</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 2:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4116</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4117</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 6:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4118</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>1</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4119</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 1:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4120</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4121</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 6:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4122</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>2</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4123</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 1:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4124</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 2:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4125</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4126</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 6:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4127</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 8:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4128</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 2:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4129</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 5:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>4130</id>
+<theater>Harbor Point</theater>
+<theater_code>HPC</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 150.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30941</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 11:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30942</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30943</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 6:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30944</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>1</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30945</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 11:40:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30946</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 2:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30947</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 4:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30948</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 6:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30949</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30950</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 1:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30951</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 4:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30952</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 6:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30953</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>3</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 160.00</price>
+<screening>1/18/2013 9:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30954</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 11:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30955</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30956</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30957</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>4</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30958</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 1:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30959</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30960</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30961</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30962</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>5</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30963</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>SISTERAKAS</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 12:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30964</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>SISTERAKAS</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 2:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30965</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>SISTERAKAS</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 4:50:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30966</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>ONE MORE TRY</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 7:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30967</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>6</cinema>
+<movie_title>ONE MORE TRY</movie_title>
+<rating>R-13</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30968</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 12:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30969</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 2:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30970</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30971</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 6:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>30972</id>
+<theater>Market! Market!</theater>
+<theater_code>M2</theater_code>
+<cinema>7</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 170.00</price>
+<screening>1/18/2013 9:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>23139</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 12:35:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23140</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 2:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23141</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 4:45:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23142</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 6:50:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23143</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>1</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 140.00</price>
+<screening>1/18/2013 9:30:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23144</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 12:00:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>23145</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>23146</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 6:20:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>23147</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>2</cinema>
+<movie_title>(2D) LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:30:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>23148</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 1:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23149</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 3:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23150</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 5:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23151</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 7:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23152</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>3</cinema>
+<movie_title>A HAUNTED HOUSE</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:15:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23153</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 12:20:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23154</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 2:30:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23155</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 4:40:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23156</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 6:50:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+<Schedule>
+<id>23157</id>
+<theater>MarQuee</theater>
+<theater_code>MRQ</theater_code>
+<cinema>4</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 130.00</price>
+<screening>1/18/2013 9:00:00 PM</screening>
+<seat_type>Free Seating</seat_type>
+</Schedule>
+
+<Schedule>
+	<id>103393</id>
+	<theater>TriNoma</theater>
+	<theater_code>TRI</theater_code>
+	<cinema>1</cinema>
+	<movie_title>LIFE OF PI</movie_title>
+	<rating>G</rating>
+	<price>Php 180.00</price>
+	<screening>1/18/2013 12:25:00 PM</screening>
+	<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+
+<Schedule>
+<id>103394</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103395</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 5:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103396</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>1</cinema>
+<movie_title>LIFE OF PI</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 8:40:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103397</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103398</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 1:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103399</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103400</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>2</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103401</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 1:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103402</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103403</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103404</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103405</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103406</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 1:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103407</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103408</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 5:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103409</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 7:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103410</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>3Z</cinema>
+<movie_title>(2D) A HAUNTED HOUSE</movie_title>
+<rating>MTRCB rating not yet available</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 9:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103411</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103412</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 2:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103413</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 5:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103414</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 8:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103415</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 11:00:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103416</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 2:10:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103417</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 5:35:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103418</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>4Z</cinema>
+<movie_title>(2D) ZERO DARK THIRTY</movie_title>
+<rating>R-13</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 8:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103419</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 12:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103420</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 3:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103421</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 6:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103422</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>5</cinema>
+<movie_title>JACK REACHER</movie_title>
+<rating>PG</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 8:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103423</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 11:45:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103424</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 2:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103425</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 4:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103426</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 6:45:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103427</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>6</cinema>
+<movie_title>THE LAST STAND</movie_title>
+<rating>R-16</rating>
+<price>Php 180.00</price>
+<screening>1/18/2013 9:05:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103273</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 11:40:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103274</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 2:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103428</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 190.00</price>
+<screening>1/18/2013 5:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103275</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 200.00</price>
+<screening>1/18/2013 8:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103276</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 300.00</price>
+<screening>1/18/2013 11:40:00 AM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103277</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 300.00</price>
+<screening>1/18/2013 2:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103429</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>PARENTAL GUIDANCE</movie_title>
+<rating>G</rating>
+<price>Php 290.00</price>
+<screening>1/18/2013 5:55:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+<Schedule>
+<id>103278</id>
+<theater>TriNoma</theater>
+<theater_code>TRI</theater_code>
+<cinema>7Z</cinema>
+<movie_title>LES MISERABLES</movie_title>
+<rating>PG</rating>
+<price>Php 300.00</price>
+<screening>1/18/2013 8:25:00 PM</screening>
+<seat_type>Guaranteed Seats</seat_type>
+</Schedule>
+</Movie>

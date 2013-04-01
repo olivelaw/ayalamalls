@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/food.js"></script>
+  	<script src="js/underscore-min.js"></script>
+
+  	<!-- for reveal modal -->
+  	<link rel="stylesheet" type="text/css" href="css/reveal.css">
+  	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+  	<!-- end -->
+
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+
+		$.ready(function() {
+			$(".button").forEach(function(button) {
+				button.bind("touchstart", function() {
+					button.addClass("touched");
+				});
+				button.bind("touchend", function() {
+					button.removeClass("touched");
+				});
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToMallFeatures();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label" id="mall-name"></span>
+                </div>
+            </div>
+		</div>
+	</div>
+
+	<div id="myModal" class="reveal-modal">
+		<div style="height: 40px !important; width:40px !important;">
+			<img src="img/ajax-loader2.gif" width="30px" height="30px">
+		</div>
+	</div>
+
+	<div class="main-content">
+		<div class="food-container">
+			<div class="food-scrollable" id="scrollable">
+				<ul class="nav nav-tabs nav-stacked list-name" id="foods"></ul>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

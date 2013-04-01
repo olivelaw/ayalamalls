@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/date.format.js"></script>
+  	<script>
+  		$(document).ready(function() {
+			//$.get("../api/v1/malls/"+sessionStorage.mall_id+"/events",function(data){
+			$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/events.json",function(data){
+				$.each(data, function(i, event_details) {
+					if (event_details.id == sessionStorage.event_id) {
+						$('#event-advert-banner').append('<img src="' + event_details.advert_url + '" width="100%" height="235px" class="event-pic">');
+						$('#event-title').html(event_details.headline);
+						$('#event-details').html(event_details.description+'<br/>');
+						$('#event-period').append('<b>' + dateFormat(event_details.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(event_details.ends_at, 'mmm dd, yyyy') + '</b>');
+						$('#event-terms').append('<li>- '+event_details.terms);
+						$('#event-disclaimer').append('<li>- '+event_details.disclaimer);
+					}
+				});
+			});
+		 });
+
+  		$.ready(function() {
+	    $(".button").forEach(function(button) {
+	        button.bind("touchstart", function() { button.addClass("touched"); });
+	        button.bind("touchend", function() { button.removeClass("touched"); });
+	    });
+	});
+  	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToSpecificPage(6);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="events-scrollable event-details-container" id="scrollable">
+			<div class="full-width" id="event-advert-banner"></div>
+			<h2 class="event-promo-title" id="event-title"></h2>
+			<p class="event-promo-details" id="event-details"></p>
+			<p class="period" id="event-period"></p>
+			<p class="blue-green-label">Terms & Conditions</p>
+			<ul class="terms-disclaimer" id="event-terms"></ul>
+			<p class="blue-green-label">Disclaimer</p>
+			<ul class="terms-disclaimer" id="event-disclaimer"></ul>
+		</div>
+	</div>
+</body>
+</html>

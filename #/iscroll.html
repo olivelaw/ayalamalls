@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<link rel="stylesheet" type="text/css" href="css/scroller.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/iscroll.js"></script>
+  	<script type="text/javascript" src="js/on-off-switch.js"></script>
+  	<script type="text/javascript">
+		var myScroll;
+		function loaded() {
+			myScroll = new iScroll('wrapper');
+		}
+		document.addEventListener('DOMContentLoaded', loaded, false);
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo"></div>
+	</div>
+	<div class="main-content">
+		<div class="offers-wrapper">
+			<div class="offers-header">What offers are you interested in?</div>
+			<div class="offers-container" id="wrapper">
+				<div id="scroller">
+					<ul id="thelist">
+						<li>
+							<div class="offer-title">Amusement and Entertainment</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers1">
+								    <input type="radio" name="offer-on-off1" id="off1" value="OFF">
+								    <input type="radio" name="offer-on-off1" id="on1" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Apparel</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers2">
+								    <input type="radio" name="offer-on-off2" id="off2" value="OFF">
+								    <input type="radio" name="offer-on-off2" id="on2" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Banks/ATM's</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers3">
+								    <input type="radio" name="offer-on-off3" id="off3" value="OFF">
+								    <input type="radio" name="offer-on-off3" id="on3" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Bookstores/Office Supplies</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers4">
+								    <input type="radio" name="offer-on-off4" id="off4" value="OFF">
+								    <input type="radio" name="offer-on-off4" id="on4" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Cake/Bakeshops/Desserts</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers5">
+								    <input type="radio" name="offer-on-off5" id="off5" value="OFF">
+								    <input type="radio" name="offer-on-off5" id="on5" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Children's Shops</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers5">
+								    <input type="radio" name="offer-on-off5" id="off5" value="OFF">
+								    <input type="radio" name="offer-on-off5" id="on5" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="offer-title">Children's Shops</div>
+							<div class="field-on-off">
+								<span class="toggle-bg-offers" id="toggle-bg-offers6">
+								    <input type="radio" name="offer-on-off6" id="off6" value="OFF">
+								    <input type="radio" name="offer-on-off6" id="on6" value="ON">
+								    <div class="switch-on-off" id="offer_status"></div>
+								</span>
+							</div>
+						</li>
+					</ul>
+				</div> <!-- end of scroller div -->
+			</div>
+		</div>
+		<div class="divider"></div>
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="#" id="home"></a>
+			</li>
+			<li class="nav">
+				<a href="#" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="#" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="#" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="#" id="prefs" class="active"></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

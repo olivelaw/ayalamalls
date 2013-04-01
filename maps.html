@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.iscrollview.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+	</script>
+	<script>
+		var zoomListeners = [];
+		var originalWidth = 320;
+		(function(){
+			// Poll the pixel width of the window; invoke zoom listeners
+			// if the width has been changed.
+			var lastWidth = 0;
+			function pollZoomFireEvent() {
+				var widthNow = jQuery(window).width(); 
+				if (lastWidth == widthNow) return;
+				lastWidth = widthNow;
+				if (lastWidth < originalWidth) {
+					// Length changed, user must have zoomed, invoke listeners.
+					//alert('zoomed' + ' ' + lastWidth);
+					$('img#map').attr('src', 'img/360Art/ios-greenbelt-map.png');
+					for (i = zoomListeners.length - 1; i >= 0; --i) {
+					  zoomListeners[i]();
+					}
+				}
+				else {
+					$('img#map').attr('src', 'img/360Art/ios-greenbelt-map.png');
+				}
+
+			}
+			setInterval(pollZoomFireEvent, 100);
+		})();
+
+		$(document).ready(function() {
+			$.get("../api/v1/malls",function(data){
+				$.each(data, function(i, mall_info) {
+					if (mall_info.id == sessionStorage.mall_id) {
+						$('#mall-name').html(mall_info.name);
+					}
+				});
+			});
+		 });
+
+		$.ready(function() {
+			$(".button").forEach(function(button) {
+				button.bind("touchstart", function() {
+					button.addClass("touched");
+				});
+				button.bind("touchend", function() {
+					button.removeClass("touched");
+				});
+			});
+		});
+	</script>
+	
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToMallFeatures();">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label" id="mall-name"></span>
+                </div>
+            </div>
+			<h2>Mall Map</h2>
+		</div>
+	</div>
+	<div class="main-content map-bg">
+		<div class="floor-number-wrapper">
+			<div class="floor-number">GB1 Floor1</div>
+			<div style="display:inline; float: right; margin: -28px 20px 0 0;">
+				<a href="#"><img src="img/360Art/buttton_map_right_arrow_30x37.png" width="30px" height="36px"></a>
+			</div>
+		</div>
+		<div class="map-container" id="gb1_floor1">
+			<img id="map" src="img/360Art/ios-greenbelt-map.png" width="450px" height="400px;">
+		</div>
+		<div style="position:absolute">
+			<a href="#" class="btn-get-directions">
+				Get Directions
+			</a>
+		</div>
+	</div>
+	
+</body>
+</html>

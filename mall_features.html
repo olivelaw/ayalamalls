@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/fadeSlideShow.js"></script>
+  	<script>
+  		$(document).ready(function() { 
+			// $.get("../api/v1/malls",function(data){ // kopi's local
+			$.get("/ayalamalls/api/v1/malls.json",function(data){ 
+				$.each(data, function(i, mall_info) {
+					if (mall_info.id == sessionStorage.mall_id) {
+						$('#mall-name').html(mall_info.name);
+					}
+				});
+			});
+		});
+
+	  	$.ready(function() {
+		    $(".button").forEach(function(button) {
+		        button.bind("touchstart", function() { button.addClass("touched"); });
+		        button.bind("touchend", function() { button.removeClass("touched"); });
+		    });
+		});
+  	
+		function getPromoId(pid) {
+			sessionStorage.promo_id = pid;
+			window.location.href = "promo_details.html";
+		}
+
+		function getEventId(eid) {
+			sessionStorage.event_id = eid;
+			window.location.href = "event_details.html";
+		}
+
+		// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/announcements",function(data){ // kopi's local
+		$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/events.json",function(data){
+			$.each(data, function(i, events) {
+				$('#ads_slideshow').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="www.'+ events.banner_url + '" style="height: 77px; width: 320px" alt="'+events.id+'"></a></li>');
+			});
+			$('#ads_slideshow').fadeSlideShow();
+		});
+	</script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="button bordered back" onclick="goBackToSpecificPage(1);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+            <h2 id="mall-name"></h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<ul class="features">
+			<li class="option">
+				<a href="cinema.html" id="cinema"></a>
+			</li>
+			<li class="option">
+				<a href="promos.html" id="promos"></a>
+			</li>
+			<li class="option">
+				<a href="stores.html" id="stores"></a>
+			</li>
+			<li class="option">
+				<a href="food.html" id="food"></a>
+			</li>
+			<li class="option">
+				<a href="maps.html" id="map"></a>
+			</li>
+			<li class="option">
+				<a href="events.html" id="events"></a>
+			</li>
+			<li class="option">
+				<a href="restrooms.html" id="restrooms"></a>
+			</li>
+			<li class="option">
+				<a href="mall_info.html" id="mall_info"></a>
+			</li>
+			<li class="option">
+				<a href="parking.html" id="parking"></a>
+			</li>
+		</ul>
+		<div id="slideshowWrapper">
+    		<ul id="ads_slideshow" style="margin-bottom:3%; margin-top:3%;"></ul>
+		</div>
+		<div class="divider"></div>
+		<ul class="main-nav">
+			<li class="nav">
+				<a href="mall_features.html" id="home" class="active"></a>
+			</li>
+			<li class="nav">
+				<a href="check_in.html" id="check_in"></a>
+			</li>
+			<li class="nav">
+				<a href="favorites.html" id="favorites"></a>
+			</li>
+			<li class="nav">
+				<a href="share.html" id="share"></a>
+			</li>
+			<li class="nav">
+				<a href="prefs.html" id="prefs"></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

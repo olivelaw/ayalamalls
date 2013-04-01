@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="css/jquery.mobile-1.1.1.min.css" />
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.mobile-1.1.1.min.js"></script>
+	<script type="text/javascript">
+		// Javascript code to manipulate the DOM
+		$(document).ready(function(){
+		    $('a[data-theme="app-ios"]').find('.ui-icon').remove();
+		    $('a[data-theme="app-ios"]').append('<div class="ios-tip"><span>&nbsp;</span></div>');
+		});
+	</script>
+	<style type="text/css">
+		<style type="text/css">
+		/* button background and borders color */
+    a[data-theme="app-ios"] {
+        border: none;
+        }
+    a[data-theme="app-ios"] .ui-btn-corner-all {
+        border: 1px solid rgba(0,0,0, 0.4);
+        -webkit-border-radius: 5px;
+        background: -webkit-gradient(linear, left top, left bottom, from(#9fb3cc), to(#5b80ab), color-stop(0.5, #6b8bb2), color-stop(0.51, #597eaa));
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.25), inset 0 1px 1px rgba(0,0,0, 0.2);
+        overflow: visible;
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+        }
+    /* shadows and label color */
+    a[data-theme="app-ios"].ui-shadow,
+    a[data-theme="app-ios"] {
+        box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none;
+        background-clip: none; -webkit-background-clip: none; -moz-background-clip: none;
+        color: white;
+        font-weight: bold;
+        top: 5px;
+        text-decoration: none;
+        text-shadow: 0 -1px 0 rgba(0,0,0, 0.4);
+        }
+    /* make room for the point */
+    a[data-theme="app-ios"].ui-btn-left {
+    	left: 14px;
+    	}
+    	a[data-theme="app-ios"].ui-btn-left .ui-btn-corner-all {
+            padding-left: 5px !important;
+    		}
+    /* position the DIV that contains the point */
+    a[data-theme="app-ios"] .ios-tip {
+    	float: left;
+    	left: -9px;
+    	top: 4px;
+    	position: absolute;
+    	-webkit-transform: scale(.7, 1.0);
+    	}
+    /* apply gradient */
+    a[data-theme="app-ios"] .ios-tip span {
+        display: block;
+        width: 18px;
+        height: 20px;
+        border: 2px solid rgba(0,0,0, 0.4);
+        border-right: 0;
+        border-top: 0;
+        /* the gradient color mus be slightly different since the point is within the body of the button */
+        background: -webkit-gradient(linear, left top, right bottom, from(#94a8c2), to(#5b80ab), color-stop(0.5, #6b8bb2), color-stop(0.51, #597eaa));
+        border-radius: 1px; -webkit-border-radius: 1px; -moz-border-radius: 1px;
+        box-shadow: 0 1px 0 rgba(255,255,255, 0.25); -webkit-box-shadow: 0 1px 0 rgba(255,255,255, 0.25); -moz-box-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+    	-webkit-transform: rotate(45deg) scale(.9, .9);
+    	}
+	</style>
+</head>
+<body>
+	<div data-role="page" id="main">
+    <div data-theme="c" data-role="header">
+        <h3>
+            Header
+        </h3>
+        <a data-role="button" data-rel="back" data-icon="arrow-l" data-theme="app-ios">Back</a>
+        <br/>
+        <!-- <a style="margin-left:5%; width: auto !important;" data-role="button" data-rel="back" data-icon="arrow-l" data-theme="app-ios" class="ui-btn-left ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-app-ios" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Trinoma</span></span><div class="ios-tip"><span>&nbsp;</span></div></a> -->
+    </div>
+    <div data-role="content"></div>
+</div>
+</body>
+</html>

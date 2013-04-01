@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/footer_icons.js"></script>
+  	<script type="text/javascript" src="js/date.format.js"></script>
+  	<script>
+  		$(document).ready(function() {
+			// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/announcements",function(data){ // kopi's local
+			$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/promos.json",function(data){
+				$.each(data, function(i, promo_details) {
+					if (promo_details.id == sessionStorage.promo_id) {
+						$('#promo-advert-banner').append('<img src="' + promo_details.advert_url + '" width="100%" height="235px" class="event-pic">');
+						$('#promo-title').html(promo_details.headline);
+						$('#promo-details').html(promo_details.description+'<br/>');
+						$('#promo-period').append('<b>' + dateFormat(promo_details.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(promo_details.ends_at, 'mmm dd, yyyy') + '</b>');
+						$('#promo-terms').append('<li>- '+promo_details.terms);
+						$('#promo-disclaimer').append('<li>- '+promo_details.disclaimer);
+					}
+				});
+			});
+		 });
+
+		$(function() {
+			show_active_state('a#promotion','a#store-location');
+			show_default();
+		});
+
+		$.ready(function() {
+		    $(".button").forEach(function(button) {
+		        button.bind("touchstart", function() { button.addClass("touched"); });
+		        button.bind("touchend", function() { button.removeClass("touched"); });
+		    });
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToSpecificPage(3);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="events-scrollable event-details-container" id="scrollable">
+			<div id="promotion-container">
+				<div class="full-width" id="promo-advert-banner"></div>
+				<h2 class="event-promo-title" id="promo-title"></h2><br/>
+				<p class="event-promo-details" id="promo-details"></p><br/>
+				<p class="period" id="promo-period"></p><br/>
+				<p class="blue-green-label">Terms & Conditions</p><br/>
+				<ul class="terms-disclaimer" id="promo-terms"></ul><br/>
+				<p class="blue-green-label">Disclaimer</p><br/>
+				<ul class="terms-disclaimer" id="promo-disclaimer"></ul>
+			</div>
+			<div id="store-location-container">
+		
+			</div>
+		</div>
+		<div class="cinema-footer">
+			<a href="#promotion-container" id="promotion">
+				<div class="promo-option">
+					<img id="promotion-icon" src="img/360Art/promotion-active.png" width="35px" height="31"><br/>
+					<span>Promotion</span>
+				</div>
+			</a>
+			<a href="#store-location-container" id="store-location">
+				<div class="promo-option">
+					<img id="store-location-icon" src="img/360Art/store-location.png" width="34px" height="31px"><br/>
+					<span>Store Location</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

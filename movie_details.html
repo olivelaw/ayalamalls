@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1.0" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/footer_icons.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/cinema.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+	</script>
+	<script>
+		$(function() { show_active_state('a#movie-details','a#showtimes'); })
+
+	  	$.ready(function() {
+		    $(".button").forEach(function(button) {
+		        button.bind("touchstart", function() { button.addClass("touched"); });
+		        button.bind("touchend", function() { button.removeClass("touched"); });
+		    });
+		});
+
+  		$(document).ready(function() { 
+		    $.ajax({  
+		        type: "GET",  
+		        // url: "../api/v1/sureseats_api?action=nowshowing", // kopi's local
+		        url: "/ayalamalls/xml/now_showing.xml",  
+		        dataType: "xml",  
+		        success: getNowShowing  
+		    });
+		    $.ajax({  
+		        type: "GET",  
+		        // url: "../api/v1/sureseats_api?action=schedule", // kopi's local
+		        url: "/ayalamalls/xml/schedule.xml",  
+		        dataType: "xml",  
+		        success: getSchedule  
+		    });
+		    function getNowShowing(xml) {  
+		        $(xml).find("Now_Showing").each(function() {
+		        	if ($(this).find("movie_title").text() == sessionStorage.title) {
+		        		$('#movie-name').html($(this).find("movie_title").text());
+		        		$('movie-title').html($(this).find("movie_title").text());
+		        		$('#artists').html($(this).find("cast").text());
+		        		$('#plot').html($(this).find("synopsis").text());
+		        		$('#movie_header').append('<img src="' + $(this).find("picture").text() + '" style="float: left;" width="100px" height="155px">');
+
+		        		var buyOnlineTicketLink = 'http://www.sureseats.com/theaters/movies.asp?event=';
+		        		var movieId = $(this).find("id").text();
+		        		$('#scrollable').append('<a href="' + buyOnlineTicketLink + movieId + '" class="btn-buy">Buy Online</a><br/><br/>');
+		        	}
+		        });  
+		    }
+		    function getSchedule(xml) {  
+		        $(xml).find("Schedule").each(function() {
+		        	if ($(this).find("theater_code").text() == sessionStorage.tcode) {
+			        	if ($(this).find("movie_title").text() == sessionStorage.title) {
+			        		$('#rating').html($(this).find("rating").text());
+			        		$("#screening").append('<li><a>'+$(this).find("screening").text()+'</a></li>');
+			        	}
+			        }
+		        });  
+		    }
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="button bordered back" onclick="goBackToSpecificPage(7);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+            <h2 id="movie-name"></h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="cinema-container">
+			<div id="movie-details-container" style="display:block;">
+				<div class="movie-scrollable" id="scrollable">
+					<div class="movie-header" id="movie_header">
+						<div style="text-align: center;"><p class="movie-title" id="movie-title"></p></div>
+					</div>
+					<p class="artists" id="artists"></p>
+					<p class="rating" id="rating"></p><br/><br/>
+					<p class="plot" id="plot"></p><br/>
+					<!-- <a href="" class="btn-buy">Buy Online</a><br/><br/> -->
+			    </div>
+			</div>
+			<div id="showtimes-container" style="display:none;">
+				<div class="movie-scrollable" id="scrollable">
+					<ul class="nav nav-tabs nav-stacked list-name" id="screening"></ul>
+			    </div>
+			</div>
+		</div>
+		<div class="cinema-footer">
+			<a href="#movie-details-container" id="movie-details">
+				<div class="movie-sched-option">
+					<img id="movie-details-icon" src="img/360Art/movie-details-active.png" width="20.8px"><br/>
+					<span>Movie Details</span>
+				</div>
+			</a>
+			<a href="#showtimes-container" id="showtimes">
+				<div class="movie-sched-option">
+					<img id="showtimes-icon" src="img/360Art/showtimes.png" width="30px"><br/>
+					<span>Showtimes</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

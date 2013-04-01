@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/footer_icons.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	<script type="text/javascript" src="js/cinema.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+	</script>
+	<script>
+		$(function() { show_active_state('a#movie-details','a#showtimes'); });
+	
+  		$(document).ready(function() {
+			// $.get("../api/v1/malls",function(data){ // kopi's local
+			$.get("/ayalamalls/api/v1/malls.json",function(data){
+				$.each(data, function(i, mall_info) {
+					if (mall_info.id == sessionStorage.mall_id) {
+						$('#movie-name').html(mall_info.name);
+					}
+				});
+			});
+		 });
+
+  		$.ready(function() {
+			$(".button").forEach(function(button) {
+				button.bind("touchstart", function() { button.addClass("touched"); });
+				button.bind("touchend", function() { button.removeClass("touched"); });
+			});
+		});
+
+		$(document).ready(function() { 
+		    $.ajax({  
+		        type: "GET",  
+		        // url: "../api/v1/sureseats_api?action=comingsoon", // kopi's local
+		        url: "/ayalamalls/xml/coming_soon.xml",  
+		        dataType: "xml",  
+		        success: parseXml  
+		    });
+
+		    function parseXml(xml) {  
+		        $(xml).find("Coming_Soon").each(function() {
+		        	if ($(this).find("movie_title").text() == sessionStorage.csMovie) {
+		        		$('#movie-title').html($(this).find("movie_title").text());
+		        		$('#artists').html($(this).find("cast").text());
+		        		$('#plot').html($(this).find("synopsis").text());
+		        		$('#movie-header').append('<img src="' + $(this).find("picture").text() + '" style="float: left;" width="100px" height="155px">');
+		        	}
+		        });  
+		    }
+		});
+	</script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToSpecificPage(7);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label">Back</span>
+                </div>
+            </div>
+            <h2 id="movie-name"></h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="cinema-container">
+			<div id="movie-details-container" style="display:block;">
+				<div class="movie-scrollable" id="scrollable">
+					<div class="movie-header" id="movie-header">
+						<p class="movie-title" id="movie-title"></p>
+					</div>
+					<p class="artists" id="artists"></p>
+					<p class="rating"></p><br/><br/>
+					<p class="plot" id="plot"></p><br/>
+			    </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

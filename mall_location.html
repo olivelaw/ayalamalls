@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0" />
+  	<title>Ayala Malls 360</title>
+  	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.iscrollview.css">
+  	<link rel="stylesheet" type="text/css" href="css/misc.css">
+  	<script type="text/javascript" src="js/scrollfix.js"></script>
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/main.js"></script>
+  	 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+	<script type="text/javascript" charset="utf-8">
+		var scrollable = document.getElementById("scrollable");
+		new ScrollFix(scrollable);
+
+		coords = ""; coordinates = "";
+
+		$(document).ready(function() {
+			//$.get("../api/v1/malls",function(data){ //kopi's local
+			$.get("/ayalamalls/api/v1/malls.json",function(data){
+				$.each(data, function(i, mall_info) {
+					if (mall_info.id == sessionStorage.mall_id) {
+						$('#mall-name').html(mall_info.name);
+						coords = mall_info.coordinates;
+						coordinates = coords.split(",");
+
+						var mapOptions = {
+				          zoom: 16,
+				          center: new google.maps.LatLng(parseFloat(coordinates[0]),parseFloat(coordinates[1])),
+				          mapTypeId: google.maps.MapTypeId.ROADMAP
+				        }
+				        var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+				        var myLatLng = new google.maps.LatLng(parseFloat(coordinates[0]),parseFloat(coordinates[1]));
+				        var beachMarker = new google.maps.Marker({
+				            position: myLatLng,
+				            map: map,
+				            animation:google.maps.Animation.BOUNCE
+				        });
+					}
+				});
+			});
+		});
+	</script>	
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="header-logo">
+			<div class="button bordered back" onclick="goBackToSpecificPage(2);">
+                <span class="pointer"></span>
+                <div class="content">
+                    <span class="label" id="mall-name"></span>
+                </div>
+            </div>
+			<h2>Mall Location</h2>
+		</div>
+	</div>
+	<div class="main-content">
+		<!-- <iframe style="height:370px; width: 100%;" src="https://maps.google.ca/maps?f=q&source=s_q&hl=en&geocode=&q=7.091092,+125.611067&amp;output=embed"></iframe> -->
+		<div id="map_canvas" style="height:90%; width: 100%;"></div>
+	</div>
+</body>
+</html>
