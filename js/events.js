@@ -21,12 +21,18 @@ $(document).ready(function() {
 		}
 	});
 
-	//$.get("../api/v1/malls",function(data){ //kopi's local
-	$.get("/ayalamalls/api/v1/malls.json",function(data){
-		$.each(data, function(i, mall_info) {
-			if (mall_info.id == sessionStorage.mall_id) {
-				$('#mall-name').html(mall_info.name);
-			}
+	if (sessionStorage.mall_id == null) {
+        alert("Please select mall first.");
+        window.location.href = "index.html";
+    }
+    else{
+		//$.get("../api/v1/malls",function(data){ //kopi's local
+		$.get("/ayalamalls/api/v1/malls.json",function(data){
+			$.each(data, function(i, mall_info) {
+				if (mall_info.id == sessionStorage.mall_id) {
+					$('#mall-name').html(mall_info.name);
+				}
+			});
 		});
-	});
+	}
 });

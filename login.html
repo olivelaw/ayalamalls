@@ -8,10 +8,11 @@
   	<script type="text/javascript" src="js/jquery.min.js"></script>
   	<script type="text/javascript" src="js/main.js"></script>
   	<script>
-  		var token; var user_id; var user_email;
+  		var token; var user_id; var user_email; // for sessionStorage
+  		var l_user_token; // l means localStorage
 
-  		$(document).ready(function () {
-			$('#btn-login').click(function() {
+		$(document).ready(function () {
+  			$('#btn-login').click(function() {
 				$('#login').submit();
 			});
 		});
@@ -26,6 +27,14 @@
 	        		sessionStorage.token = data.token;
 	        		sessionStorage.user_id = data.id;
 	        		sessionStorage.user_email = data.email;
+	        		localStorage.l_user_token = data.token;
+
+	        		 var date = new Date();
+					 var minutes = 30;
+					 date.setTime(date.getTime() + (minutes * 60 * 1000));
+					 $.cookie("user-token", data.token, { expires: date });
+					 $.cookie("user-email", data.email, { expires: date });
+					 alert(date);
 	        	}
 	        	else{
 	        		alert('Invalid email.');
@@ -39,40 +48,31 @@
 
 <body>
 	<div class="wrapper">
-		<div class="header-logo">
-			<!-- <div class="button bordered back" onclick="history.back();">
-                <span class="pointer"></span>
-                <div class="content">
-                    <a class="label">Ayala Malls</a>
-                </div>
-            </div>
-            <div class="button bordered next">
-                <span class="pointer"></span>
-                <span class="label">Done</span>
-            </div>
-            <div class="button bordered no-pointer" id="btn-done">
-                <span class="label">Done</span>
-            </div> -->
-		</div>
-		</div>
+		<div class="header-logo"></div>
+	</div>
 	<div class="main-content">
 		<div class="logo">
 			<a href="#"><img src="img/360Art/logo_mallMenu_190x64.png" width="190px" height="64px" style="margin-top: -5px;"></a>
 		</div>
-		<div class="prefs-wrapper" style="margin: 0% 0 4.5% 8%; height: 306px;">
-			<br/>
+		<div class="prefs-wrapper login-wrapper">
 			<div class="login-register">
-				<div style="width: 100%; text-align: center; color: #645f5f; margin-top: 8px; font-weight: bold;">Login your account.</div>
+				<div class="login-text">Login your account.</div>
 				<form id="login" name="login" method="get" onsubmit="return loginAccount();">
-					<input type="text" style="display: block; margin: 0 auto; margin: 15px; width: 83%;" id="email_address" name="email_address" placeholder="Email Address">
+					<input type="text" id="email_address" name="email_address" placeholder="Email Address">
 				</form>
 				<a class="btn-login" id="btn-login">Login</a>
 			</div>
 			<br/>
 			<div class="divider"></div>
 			<div class="login-register">
-				<div style="width: 100%; text-align: center; color: #645f5f; margin-top: 8px; font-weight: bold;">Register if you don't have<br/>an account yet.</div><br/>
+				<div class="login-text" style="margin-bottom: 6px;">Register if you don't have<br/>an account yet.</div>
 				<a class="btn-login" href="registration.html">Register</a>
+			</div>
+			<br/>
+			<div class="divider"></div>
+			<div class="login-register">
+				<div class="login-text" style="margin-bottom: 6px;">Continue without login?</div>
+				<a class="btn-login" href="index.html">Skip</a>
 			</div>
 		</div>
 	</div>

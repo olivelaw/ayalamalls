@@ -30,6 +30,7 @@ function getCategoryId(cid) {
 					$('#stores-by-category-container').css("display","block");
 					$('#categories-container').css("display","none");
 					$('#stores-container').css("display","none");
+					$('#searched-stores-container').css("display","none");
 
 					$('#stores-by-category').append('<li><a href="javascript:void(0);" onclick="javascript:getStoreId('+data[a].store_id+');">'+data[a].store_name+'</a></li>');
 					$('#category-name').html(data[a].categories[b].name);
@@ -42,7 +43,6 @@ function getCategoryId(cid) {
 			}
 		}
 		if (ctr <= 0){
-			console.log(sessionStorage.category_id.length);
 			alert('There are no stores under your chosen category. Please check back later.');
 		}
 		ctr = 0;
@@ -52,6 +52,7 @@ function getCategoryId(cid) {
 function showCategoryList() {
 	$('#stores-container').css("display","none");
 	$('#stores-by-category-container').css("display","none");
+	$('#searched-stores-container').css("display","none");
 	$('#categories-container').css("display","block");
 
 	$('#stores-name').css('background-color','transparent');
@@ -64,17 +65,29 @@ function showAllStores() {
 	$('#stores-container').css("display","block");
 	$('#stores-by-category-container').css("display","none");
 	$('#categories-container').css("display","none");
+	$('#searched-stores-container').css("display","none");
+
+	$('#stores-name').css('background-color','#556481');
+	$('#category-name').css('background-color','transparent');
+	$('#stores-name').css('color','#fff');
+	$('#category-name').css('color','#556481');
 }
 
 $(document).ready(function() {
-	//$.get("../api/v1/malls",function(data){ //kopi's local
-	$.get("/ayalamalls/api/v1/malls.json",function(data){
-		$.each(data, function(i, mall_info) {
-			if (mall_info.id == sessionStorage.mall_id) {
-				$('#mall-name').html(mall_info.name);
-			}
+	if (sessionStorage.mall_id == null) {
+        alert("Please select mall first.");
+        window.location.href = "index.html";
+    }
+    else{
+		//$.get("../api/v1/malls",function(data){ //kopi's local
+		$.get("/ayalamalls/api/v1/malls.json",function(data){
+			$.each(data, function(i, mall_info) {
+				if (mall_info.id == sessionStorage.mall_id) {
+					$('#mall-name').html(mall_info.name);
+				}
+			});
 		});
-	});
+	}
 
 	//$.get("../api/v1/categories",function(data){ //kopi's local
 	$.get("/ayalamalls/api/v1/categories.json",function(data){
@@ -83,20 +96,6 @@ $(document).ready(function() {
 			$('#categories').css("display","block");
 		});
 	});
-
-	/*$('#search-store').focus(function(){
-		//var people = myJson["people"];
-		//var persons = people["person"];
-		$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/stores.json",function(data){
-			for(var i=0; i < persons.length; ++i) {
-			    var person_i = persons[i];
-			    if(person_i["name"] == mySearchForName) {
-			        // found ! do something with 'person_i'.
-			        break;
-			    }
-			}
-		});
-	});*/
 
 	var store_item;
 	// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){ // kopi's local
@@ -317,4 +316,37 @@ $(document).ready(function() {
 			$('#myModal').trigger('reveal:close');
 		}
 	});
-}); 
+});
+
+$(function() {
+	$("#search-store").keyup(function(e){
+		if ($(this).val() != "") {
+			search_store();
+		}
+		else {
+			showAllStores();
+		}
+	});
+});
+
+function search_store() {
+	var keyword = $('#search-store').val();
+	
+	$('#searched-stores-container').html("");
+	$('#searched-stores-container').html('<div class="scrollable" id="ungrouped"><ul id="searched-stores-list" class="nav nav-tabs nav-stacked list-name"></ul></div>');
+
+	$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/stores.json", function(data) {
+		$.each(data, function(key, val) {
+			if(val['store_name'].toLowerCase().indexOf(keyword.toLowerCase()) !== -1) {
+				$('#searched-stores-list').append('<li><a href="javascript:void(0);" onclick="javascript:getStoreId('+val['store_id']+');">'+val['store_name']+'</a></li>');
+				$('#searched-stores-container').css("display","block");
+				$('#stores-container').css("display","none");
+				$('#stores-by-category-container').css("display","none");
+				$('#categories-container').css("display","none");
+			}
+		});
+	});
+}
+
+
+ 

@@ -11,14 +11,20 @@
 	<script type="text/javascript" src="js/fadeSlideShow.js"></script>
   	<script>
   		$(document).ready(function() { 
-			// $.get("../api/v1/malls",function(data){ // kopi's local
-			$.get("/ayalamalls/api/v1/malls.json",function(data){ 
-				$.each(data, function(i, mall_info) {
-					if (mall_info.id == sessionStorage.mall_id) {
-						$('#mall-name').html(mall_info.name);
-					}
+			if (sessionStorage.mall_id == null) {
+		        alert("Please select mall first.");
+		        window.location.href = "index.html";
+		    }
+		    else{
+				// $.get("../api/v1/malls",function(data){ // kopi's local
+				$.get("/ayalamalls/api/v1/malls.json",function(data){ 
+					$.each(data, function(i, mall_info) {
+						if (mall_info.id == sessionStorage.mall_id) {
+							$('#mall-name').html(mall_info.name);
+						}
+					});
 				});
-			});
+			}
 		});
 
 	  	$.ready(function() {
@@ -41,7 +47,7 @@
 		// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/announcements",function(data){ // kopi's local
 		$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/events.json",function(data){
 			$.each(data, function(i, events) {
-				$('#ads_slideshow').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="www.'+ events.banner_url + '" style="height: 77px; width: 320px" alt="'+events.id+'"></a></li>');
+				$('#ads_slideshow').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="http://'+ events.banner_url + '" style="height: 77px; width: 320px" alt="'+events.id+'"></a></li>');
 			});
 			$('#ads_slideshow').fadeSlideShow();
 		});
@@ -90,9 +96,11 @@
 			</li>
 		</ul>
 		<div id="slideshowWrapper">
-    		<ul id="ads_slideshow" style="margin-bottom:3%; margin-top:3%;"></ul>
+    		<ul id="ads_slideshow" style="position: absolute;"></ul>
 		</div>
-		<div class="divider"></div>
+		<!-- <div class="divider"></div> -->
+	</div>
+	<div class="bottom-nav">
 		<ul class="main-nav">
 			<li class="nav">
 				<a href="mall_features.html" id="home" class="active"></a>

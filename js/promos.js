@@ -6,6 +6,15 @@ function getPromoId(pid) {
 }
 
 $(document).ready(function() {
+	//$.get("../api/v1/malls",function(data){ //kopi's local
+	$.get("/ayalamalls/api/v1/malls.json",function(data){
+		$.each(data, function(i, mall_info) {
+			if (mall_info.id == sessionStorage.mall_id) {
+				$('#mall-name').html(mall_info.name);
+			}
+		});
+	});
+
 	// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/announcements",function(data){ // kopi's local
 	$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/promos.json",function(data){
 		if (jQuery.isEmptyObject(data)) {
@@ -19,14 +28,5 @@ $(document).ready(function() {
 			});
 			$('#myModal').trigger('reveal:close');
 		}
-	});
-
-	//$.get("../api/v1/malls",function(data){ //kopi's local
-	$.get("/ayalamalls/api/v1/malls.json",function(data){
-		$.each(data, function(i, mall_info) {
-			if (mall_info.id == sessionStorage.mall_id) {
-				$('#mall-name').html(mall_info.name);
-			}
-		});
 	});
 });

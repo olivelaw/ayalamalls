@@ -2,15 +2,20 @@ var movie_id, title, tcode;
 
 $(document).ready(function() {
 	// $.get("../api/v1/malls",function(data){ // kopi's local
-    $.get("/ayalamalls/api/v1/malls.json",function(data){
-		$.each(data, function(i, mall_info) {
-            if (mall_info.id == sessionStorage.mall_id) {
-				$('#mall-name').html(mall_info.name);
-                //sessionStorage.tcode = "GB5"; //for my local
-                sessionStorage.tcode = mall_info.tcode; // kopi's local
-			}
-		});
-	});
+    if (sessionStorage.mall_id == null) {
+        alert("Please select mall first.");
+        window.location.href = "index.html";
+    }
+    else{
+        $.get("/ayalamalls/api/v1/malls.json",function(data){
+            $.each(data, function(i, mall_info) {
+                if (mall_info.id == sessionStorage.mall_id) {
+                    $('#mall-name').html(mall_info.name);
+                    sessionStorage.tcode = mall_info.tcode; // kopi's local
+                }
+            });
+        });
+    }
  });
 
 function getMovie(title) {
@@ -51,7 +56,13 @@ $(document).ready(function() {
             
             var scheduleTheaterCode = $(this).find("theater_code").text();
 
-            if (scheduleTheaterCode == mallTheaterCode) {
+            // if (scheduleTheaterCode == mallTheaterCode) {
+            //     ctr++;
+            //     getMoviesByMall($(this));
+            //     $('#myModal').trigger('reveal:close');
+            // }
+
+            if(mallTheaterCode.indexOf(scheduleTheaterCode) != -1){
                 ctr++;
                 getMoviesByMall($(this));
                 $('#myModal').trigger('reveal:close');
@@ -59,7 +70,6 @@ $(document).ready(function() {
         });
         if (ctr <= 0) {
             alert('There are no movies at this time. Please check back later.');
-            //$('#myModal').trigger('reveal:close');
             window.location.href = "mall_features.html";
         }
         ctr = 0;

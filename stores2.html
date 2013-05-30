@@ -55,19 +55,17 @@
 	
 	<div class="main-content">
 		<div class="header search-store">
-			<div style="margin-top:5px;">
-				<input type="text" id="search-store" placeholder="Find a Store" size="40%">
-			</div>
+			<input type="text" id="search-store" placeholder="Find a Store" size="40%">
 		</div>
 		<div class="filter">
 			<div class="btn-toolbar toolbar">
                 <div class="btn-group" id="filter-group">
-                    <a id="stores-name" class="btn filter-btn" href="javascript:void(0);" onclick="showAllStores();">Name</i></a>
+                    <a id="stores-name" class="btn filter-btn">Name</i></a>
                     <a id="category-name" class="btn filter-btn" href="javascript:void(0);" onclick="showCategoryList();">Category</i></a>
                 </div>
             </div>
 		</div>
-		<div class="stores-container" id="stores-container" style="display:block;">
+		<!--<div class="stores-container" id="stores-container" style="display">
 			<div class="scrollable" id="grouped">
 				<div class="store-set">0-9</div>
 				<ul id="store_list_num" class="nav nav-tabs nav-stacked list-name"></ul>
@@ -124,7 +122,44 @@
 	            <div class="store-set">Z</div>
 				<ul id="store_list_z" class="nav nav-tabs nav-stacked list-name"></ul>
 			</div>
-		</div>
+		</div>-->
+        
+        <script>
+		
+			$(function() {
+				 $("#search-store").keyup(function(e){
+					 search_mall();
+				 });
+			});
+		
+			function search_mall() {
+				var keyword = $('#search-store').val();
+				
+				$('#search_results_wrapper').html("");
+				$('#search_results_wrapper').html('<table id="store_list"></table>');
+				$.getJSON('api/v1/1/stores.json', function(data) {
+				  var items = [];
+				 
+				  $.each(data, function(key, val) {
+					  if(val['store_name'].toLowerCase().indexOf(keyword.toLowerCase()) !== -1) {
+						 $('#store_list').append('<tr><td>'+val['store_name']+'</td></tr>');
+					  }
+					
+					//items.push('<li id="' + key + '">' + val + '</li>');
+				  });
+				});
+			}
+		</script>
+        
+        <div id="search_results_wrapper"></div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+        
 		<div class="stores-container" id="stores-by-category-container" style="display:none;">
 			<div class="scrollable" id="ungrouped">
 				<ul id="stores-by-category" class="nav nav-tabs nav-stacked list-name"></ul>
@@ -137,9 +172,12 @@
 				</ul>
 			</div>
 		</div>
-		<div class="stores-container" id="searched-stores-container" style="display:none;"></div>
-	</div>
-	<div class="bottom-nav">
+		<div class="stores-container" id="searched-stores-container" style="display:none;">
+			<div class="scrollable" id="ungrouped">
+				<ul id="searched-stores-list" class="nav nav-tabs nav-stacked list-name"></ul>
+			</div>
+		</div>
+		<div class="divider"></div>
 		<ul class="main-nav">
 			<li class="nav">
 				<a href="mall_features.html" id="home" class="active"></a>
@@ -157,6 +195,6 @@
 				<a href="prefs.html" id="prefs"></a>
 			</li>
 		</ul>
-	</div>	
+	</div>
 </body>
 </html>

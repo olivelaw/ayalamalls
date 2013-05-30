@@ -54,7 +54,7 @@ function goBackToSpecificPage(feature_id) {
         window.location.href = "mall_info.html";
     }
     else if (feature_id == 3){
-        window.location.href = "promo.html";
+        window.location.href = "promos.html";
     }
     else if (feature_id == 4){
         window.location.href = "stores.html";

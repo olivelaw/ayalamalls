@@ -23,18 +23,24 @@
 		    });
 		});
 		$(document).ready(function() {
-			$.get('../api/v1/favorites?token='+sessionStorage.token,function(data){
-				$.each(data, function(i, favorites) {
-					if (favorites.customer_id == sessionStorage.user_id) {
-						showFavoriteStores(favorites);
-					}
+			if (localStorage.l_user_token == null) {
+				alert('You need to login first.');
+				window.location.href = "/ayalamalls/login.html";
+			}
+			else {
+				$.get('../api/v1/favorites?token='+sessionStorage.token,function(data){
+					$.each(data, function(i, favorites) {
+						if (favorites.customer_id == sessionStorage.user_id) {
+							showFavoriteStores(favorites);
+						}
+					});
 				});
-			});
+			}
 		});
 		function showFavoriteStores(favorites) {
 			$.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){
 				$.each(data, function(i, s) {
-					if (s.store_id == favorites.store_location_id) {
+					if (s.id == favorites.store_location_id) {
 						$('#favorites').show();
 						$('#delete-favorites').hide();
 						$('#favorites').append('<li><a href="#">'+s.store_name+'</a></li>');
@@ -61,7 +67,7 @@
 						if (favorites.customer_id == sessionStorage.user_id) {
 							$.get("../api/v1/malls/"+sessionStorage.mall_id+"/stores",function(data){
 								$.each(data, function(i, s) {
-									if (s.store_id == favorites.store_location_id) {
+									if (s.id == favorites.store_location_id) {
 										delete_sid = favorites.store_location_id;
 										$('#favorites').hide();
 										$('#delete-favorites').show();
@@ -75,7 +81,6 @@
 			});
 
 			$('#btn-done-favorites').click(function() {
-				// $('#favorites').css('display','block'); $('#delete-favorites').css('display','none');
 				$('#favorites').show(); $('#delete-favorites').hide();
 				$('#btn-edit-favorites').show(); $(this).hide();
 			});
@@ -99,8 +104,6 @@
 			    return false;
 			}
 		});
-		
-		
   	</script>
 </head>
 
@@ -136,7 +139,8 @@
 				<ul class="nav nav-tabs nav-stacked list-name" id="delete-favorites"></ul>
 			</div>
 		</div>
-		<div class="divider"></div>
+	</div>
+	<div class="bottom-nav">
 		<ul class="main-nav">
 			<li class="nav">
 				<a href="mall_features.html" id="home"></a>

@@ -15,7 +15,40 @@
 		    });
 		});
 
-	  	$(document).ready(function(){
+	  	
+	  	$(document).ready(function() {
+			if (localStorage.l_user_token == null) {
+				alert('You need to login first.');
+				window.location.href = "/ayalamalls/login.html";
+			}
+			else {
+			// $.get("../api/v1/profile?token="+sessionStorage.token,function(data){ // kopi's local
+				$.get("/ayalamalls/api/v1/profile.json",function(data){ 
+					if(data.gender == 0) {
+						$('#gender_female').attr('checked', 'checked'); $('#gender_value').html('Female');
+					}
+					else {
+						$('#gender_male').attr('checked', 'checked'); $('#gender_value').html('Male');
+					}
+
+					$('#email').val(data.email);
+
+					if (data.age == '1') { $('#under_18').attr('selected', 'selected'); }
+					else if (data.age == '2') { $('#18-22').attr('selected', 'selected'); }
+					else if (data.age == '3') { $('#23-27').attr('selected', 'selected'); }
+					else if (data.age == '4') { $('#28-32').attr('selected', 'selected'); }
+					else if (data.age == '5') { $('#33-37').attr('selected', 'selected'); }
+					else if (data.age == '6') { $('#38-42').attr('selected', 'selected'); }
+					else if (data.age == '7') { $('#43-47').attr('selected', 'selected'); }
+					else if (data.age == '8') { $('#48-52').attr('selected', 'selected'); }
+					else if (data.age == '9') { $('#53-57').attr('selected', 'selected'); }
+					else if (data.age == '10') { $('#58-62').attr('selected', 'selected'); }
+					else if (data.age == '11') { $('#63_above').attr('selected', 'selected'); }
+				});
+			}
+		});
+
+		$(document).ready(function(){
 	  		$('input[name=gender]').click(function(){
 	  			if ($('#gender_male').attr('checked')=='checked') {
 	  				$('#gender_value').html("Male");
@@ -24,34 +57,7 @@
 	  				$('#gender_value').html("Female");
 	  			}
 	  		});
-	  		//alert('Please download the mobile application version to have this feature.')
-	  		//window.location.href = "/ayalamalls/mall_features.html";
 	  	});
-	  	$(document).ready(function() {
-			// $.get("../api/v1/profile?token="+sessionStorage.token,function(data){ // kopi's local
-				$.get("/ayalamalls/api/v1/profile.json",function(data){ 
-				if(data.gender == 0) {
-					$('#gender_female').attr('checked', 'checked'); $('#gender_value').html('Female');
-				}
-				else {
-					$('#gender_male').attr('checked', 'checked'); $('#gender_value').html('Male');
-				}
-
-				$('#email').val(data.email);
-
-				if (data.age == '1') { $('#under_18').attr('selected', 'selected'); }
-				else if (data.age == '2') { $('#18-22').attr('selected', 'selected'); }
-				else if (data.age == '3') { $('#23-27').attr('selected', 'selected'); }
-				else if (data.age == '4') { $('#28-32').attr('selected', 'selected'); }
-				else if (data.age == '5') { $('#33-37').attr('selected', 'selected'); }
-				else if (data.age == '6') { $('#38-42').attr('selected', 'selected'); }
-				else if (data.age == '7') { $('#43-47').attr('selected', 'selected'); }
-				else if (data.age == '8') { $('#48-52').attr('selected', 'selected'); }
-				else if (data.age == '9') { $('#53-57').attr('selected', 'selected'); }
-				else if (data.age == '10') { $('#58-62').attr('selected', 'selected'); }
-				else if (data.age == '11') { $('#63_above').attr('selected', 'selected'); }
-			});
-		});
 
 		$(document).ready(function () {
 			$('#btn-edit-prefs').click(function() {
@@ -132,7 +138,8 @@
 				</div>
 			</form>
 		</div>
-		<div class="divider"></div>
+	</div>
+	<div class="bottom-nav">
 		<ul class="main-nav">
 			<li class="nav">
 				<a href="mall_features.html" id="home"></a>

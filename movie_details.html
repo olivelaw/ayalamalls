@@ -15,6 +15,12 @@
 		var scrollable = document.getElementById("scrollable");
 		new ScrollFix(scrollable);
 	</script>
+
+	<!-- for reveal modal -->
+  	<link rel="stylesheet" type="text/css" href="css/reveal.css">
+  	<script type="text/javascript" src="js/jquery.reveal.js"></script>
+  	<!-- end -->
+  	
 	<script>
 		$(function() { show_active_state('a#movie-details','a#showtimes'); })
 
@@ -57,7 +63,9 @@
 		    }
 		    function getSchedule(xml) {  
 		        $(xml).find("Schedule").each(function() {
-		        	if ($(this).find("theater_code").text() == sessionStorage.tcode) {
+		        	//if ($(this).find("theater_code").text() == sessionStorage.tcode) {
+		        	var tc = $(this).find("theater_code").text();
+		        	if(sessionStorage.tcode.indexOf(tc) != -1){
 			        	if ($(this).find("movie_title").text() == sessionStorage.title) {
 			        		$('#rating').html($(this).find("rating").text());
 			        		$("#screening").append('<li><a>'+$(this).find("screening").text()+'</a></li>');
