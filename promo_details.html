@@ -15,7 +15,7 @@
 			$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/promos.json",function(data){
 				$.each(data, function(i, promo_details) {
 					if (promo_details.id == sessionStorage.promo_id) {
-						$('#promo-advert-banner').append('<img src="' + promo_details.advert_url + '" width="304px" height="235px" class="event-pic">');
+						$('#promo-advert-banner').append('<img src="http://' + promo_details.advert_url + '" width="304px" height="235px" class="event-pic">');
 						$('#promo-title').html(promo_details.headline);
 						$('#promo-details').html(promo_details.description+'<br/>');
 						$('#promo-period').append('<b>' + dateFormat(promo_details.starts_at, 'mmm dd, yyyy') + '</b> - <b>' + dateFormat(promo_details.ends_at, 'mmm dd, yyyy') + '</b>');

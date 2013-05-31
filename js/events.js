@@ -15,7 +15,7 @@ $(document).ready(function() {
 		else {
 			$('#myModal').reveal();
 			$.each(data, function(i, events) {
-				$('#events-list').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="' + events.banner_url + '" width="100%" height="80px"></a></li>');
+				$('#events-list').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="http://' + events.banner_url + '" width="100%" height="80px"></a></li>');
 			});
 			$('#myModal').trigger('reveal:close');
 		}

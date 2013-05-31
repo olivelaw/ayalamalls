@@ -27,7 +27,7 @@
 
 						store_location_id = store_info.store_id;
 						$('#store-name').html(store_info.store_name);
-						$('#store-pic').append('<img class="store-pic" src="' + store_info.photo_url + '" width="304px" height="235px">');
+						$('#store-pic').append('<img class="store-pic" src="http://' + store_info.photo_url + '" width="304px" height="235px">');
 						$('#scrollable').append('<p class="store-contact">Located on '+store_info.location+'. '+store_info.contact+'</p>');
 						$('#scrollable').append('<p class="store-details">'+store_info.description+'</p>');
 

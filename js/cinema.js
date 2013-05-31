@@ -51,6 +51,7 @@ $(document).ready(function() {
         $('#myModal').reveal();
 
         var mallTheaterCode = sessionStorage.tcode;
+        console.log(scheduleXML);
 
         $(scheduleXML).find("Schedule").each(function(){
             

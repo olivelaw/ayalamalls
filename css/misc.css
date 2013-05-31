@@ -203,9 +203,9 @@ ul.features a#cinema,
 ul.features a#promos,
 ul.features a#stores,
 ul.features a#food,
-ul.features a#map,
+ul.features a#amore,
 ul.features a#events,
-ul.features a#restrooms,
+ul.features a#ufirst,
 ul.features a#mall_info,
 ul.features a#parking {
 	display: block;
@@ -300,9 +300,9 @@ ul.features a#cinema,
 ul.features a#promos,
 ul.features a#stores,
 ul.features a#food,
-ul.features a#map,
+ul.features a#amore,
 ul.features a#events,
-ul.features a#restrooms,
+ul.features a#ufirst,
 ul.features a#mall_info,
 ul.features a#parking {
 	margin-left: 6px;
@@ -345,15 +345,15 @@ ul.features a#food:focus {
 	background: url('../img/360Art/@2x/menulogo_food_pressed_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
 }
-ul.features a#map {
-	background: url('../img/360Art/@2x/menulogo_map_72x72@2x.png') no-repeat;
+ul.features a#amore {
+	background: url('../img/360Art/@2x/menulogo_amore_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
 }
-ul.features a#map:active,
-ul.features a#map:focus {
+/*ul.features a#amore:active,
+ul.features a#menulogo_amore_72x72:focus {
 	background: url('../img/360Art/@2x/menulogo_map_pressed_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
-}
+}*/
 ul.features a#events {
 	background: url('../img/360Art/@2x/menulogo_events_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
@@ -363,13 +363,13 @@ ul.features a#events:focus {
 	background: url('../img/360Art/@2x/menulogo_events_pressed_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
 }
-ul.features a#restrooms {
-	background: url('../img/360Art/@2x/menulogo_restrooms_72x72@2x.png') no-repeat;
+ul.features a#ufirst {
+	background: url('../img/360Art/@2x/menulogo_youfirst_72x72@2x.png') no-repeat;
 	background-size: 68px 68px;
 }
-ul.features a#restrooms:active,
-ul.features a#restrooms:focus {
-	background: url('../img/360Art/@2x/menulogo_restrooms_pressed_72x72@2x.png') no-repeat;
+ul.features a#ufirst:active,
+ul.features a#ufirst:focus {
+	background: url('../img/360Art/@2x/menulogo_youfirst_72x72@2x_pressed.png') no-repeat;
 	background-size: 68px 68px;
 }
 ul.features a#mall_info {

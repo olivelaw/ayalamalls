@@ -24,7 +24,7 @@ $(document).ready(function() {
 		else {
 			$('#myModal').reveal();
 			$.each(data, function(i, promos) {
-				$('#promos-list').append('<li><a href="javascript:void(0);" onclick="getPromoId('+promos.id+');"><img src="' + promos.banner_url + '" width="100%" height="120px"></a></li>');
+				$('#promos-list').append('<li><a href="javascript:void(0);" onclick="getPromoId('+promos.id+');"><img src="http://' + promos.banner_url + '" width="100%" height="120px"></a></li>');
 			});
 			$('#myModal').trigger('reveal:close');
 		}

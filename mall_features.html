@@ -47,7 +47,7 @@
 		// $.get("../api/v1/malls/"+sessionStorage.mall_id+"/announcements",function(data){ // kopi's local
 		$.get("/ayalamalls/api/v1/"+sessionStorage.mall_id+"/events.json",function(data){
 			$.each(data, function(i, events) {
-				$('#ads_slideshow').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="http://'+ events.banner_url + '" style="height: 77px; width: 320px" alt="'+events.id+'"></a></li>');
+				$('#ads_slideshow').append('<li><a href="javascript:void(0);" onclick="getEventId('+events.id+');"><img src="http://'+ events.banner_url + '" style="height: 77px; width: 320px"></a></li>');
 			});
 			$('#ads_slideshow').fadeSlideShow();
 		});
@@ -68,25 +68,25 @@
 	<div class="main-content">
 		<ul class="features">
 			<li class="option">
-				<a href="cinema.html" id="cinema"></a>
-			</li>
-			<li class="option">
-				<a href="promos.html" id="promos"></a>
-			</li>
-			<li class="option">
 				<a href="stores.html" id="stores"></a>
 			</li>
 			<li class="option">
 				<a href="food.html" id="food"></a>
 			</li>
 			<li class="option">
-				<a href="maps.html" id="map"></a>
+				<a href="cinema.html" id="cinema"></a>
 			</li>
 			<li class="option">
 				<a href="events.html" id="events"></a>
 			</li>
 			<li class="option">
-				<a href="restrooms.html" id="restrooms"></a>
+				<a href="promos.html" id="promos"></a>
+			</li>
+			<li class="option">
+				<a href="#" id="amore"></a>
+			</li>
+			<li class="option">
+				<a href="#" id="ufirst"></a>
 			</li>
 			<li class="option">
 				<a href="mall_info.html" id="mall_info"></a>
