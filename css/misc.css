@@ -7,6 +7,10 @@ body {
 	margin: 0;
 	font-size: 13px;
 	width: 320px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
 	bottom: 0;
 }
 h2 {
@@ -28,11 +32,10 @@ h2 {
 .main-content {
 	background: url('../img/360Art/background.png') no-repeat;
 	width: 100%;
-	background-size: 100% 100%;
+	background-size: 100%;
+	height: 600px;
 	position: absolute;
 	top: 45px;
-	left: 0;
-	right: 0;
 	bottom: 0;
 }
 .divider {
@@ -45,7 +48,6 @@ h2 {
 	width: 100%;
 	border-top: 1px solid #c8c8c8;
 	bottom: 0;
-	float: left;
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -127,9 +129,11 @@ a, a:hover {
 }
 div.logo {
 	height: 64px;
-	margin: 6% 0 3% 0%;
-	position: relative;
+	position: absolute;
 	width: 100%;
+	top: 12px;
+	left: 0;
+	right: 0;
 }
 div.logo img {
 	margin: 0 auto;
@@ -159,10 +163,15 @@ div.logo img {
 .mall-container {
 	float: left;
 	font-size: 14px;
-	width: 99%;
+	width: 100%;
 }
 
 /* --- MENU & FEATURES --- */
+.features-wrapper {
+	width: 100%;
+	position: absolute;
+	height: 275px;
+}
 ul.menu li,
 ul.features li {
 	background: rgb(255,255,255); /* Old browsers */
@@ -183,12 +192,7 @@ ul.features li {
 }
 ul.menu,
 ul.features {
-	float: left;
 	margin: 0 auto;
-	margin-left: 7%;
-	padding-left: 0;
-	position: relative;
-	width: 92%;
 }
 ul.menu a#glorietta,
 ul.menu a#greenbelt,
@@ -551,7 +555,8 @@ ul.main-nav a#prefs.active {
 	margin: 0 auto;
 }
 .prefs-wrapper {
-	margin-top: 12%;
+	position: relative;
+	top: 85px;
 }
 .prefs-header,
 .offers-header,
@@ -840,7 +845,7 @@ ul.main-nav a#prefs.active {
 .food-details-scrollable,
 .map-scrollable {
 	bottom: 0;
-	left: 8.5%;
+	/*left: 8.5%;*/
 	overflow-y: scroll;
 	right: 0;
 	top: 32%;
@@ -852,8 +857,9 @@ ul.main-nav a#prefs.active {
 	width: 100%;
 }
 .mall-scrollable {
-	height: 284px;
 	width: 100%;
+	position: relative;
+	top: 86px;
 }
 .fave-scrollable {
 	height: 320px;
@@ -1119,11 +1125,10 @@ ul.main-nav a#prefs.active {
 .cinema-container,
 .movie-containaer {
 	font-family: Verdana;
-	margin: 4% 0 2% 6%;
-	width: 88%;
-}
-.cinema-container {
-	float: left;
+	margin: 0 auto;
+	position: relative;
+	bottom: 55px;
+	top: 26px;
 	width: 88%;
 }
 .movie-containaer {
@@ -1386,7 +1391,6 @@ ul.events {
 /* --- LOGIN --- */
 .login-wrapper {
 	height: 306px;
-	margin-top: 15px;
 }
 .login-register {
 	width: 99%;
@@ -1411,14 +1415,24 @@ ul.events {
 	position: absolute;
 	bottom: 66px;
 }
+
 ul#ads_slideshow,
 ul#ads_slideshow li,
 ul#ads_slideshow li a img {
 	width: 100% !important;
 }
 
-@media (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 640px) {
 	body{ width: 100%;}
+	ul.menu {
+		width: 82%;
+	}
+	ul.features { 
+		width: 60%;
+	}
+	ul#ads_slideshow {
+		height: 130px !important;
+	}
 	.movie-header img { width: 38%; }
 	.plot { margin-top: 3%;}
 	div.full-width { width: 100%; }
@@ -1428,9 +1442,31 @@ ul#ads_slideshow li a img {
 	}
 }
 @media (min-width: 321px) and (max-width: 480px) {
-	body { width: 100% !important; }
-	div.logo { margin: 6% 0 3% 0 !important; width: 100%; }
-	ul.menu, ul.features { margin-left: 9% !important; width: 91% !important; }
+	body { width: 100% !important; min-height: 480px !important; }
+	.main-content { height: auto !important; }
+	.mall-scrollable {
+		height: auto !important;
+		position: absolute !important;
+		top: 95px !important;
+		right: 0 !important;
+		left: 0 !important;
+		bottom: 66px !important;
+	}
+	div.logo { width: 100%; }
+	ul.menu,
+	ul.features {
+		position: relative;
+		box-sizing: border-box;
+	}
+	ul.menu { 
+		width: 84%;
+	}
+	ul.features { 
+		width: 58%;
+	}
+	.bottom-nav {
+		height: 66px;
+	}
 	ul.main-nav { margin-left: 0 !important; width: 99% !important; }
 	ul.main-nav li { width: 12% !important; }
 	ul.main-nav li:first-child { margin-left: 14%; }
@@ -1483,17 +1519,53 @@ ul#ads_slideshow li a img {
 	ul#ads_slideshow,
 	ul#ads_slideshow li,
 	ul#ads_slideshow li a img {
-		height: 120px !important;
+		height: 92px !important;
+	}
+	#slideshowWrapper {
+		width: 100%;
+		position: absolute;
+		bottom: 66px;
 	}
 }
-
+@media (max-width: 400px) {
+	ul.menu { 
+		width: 100%;
+	}
+	ul.features { 
+		width: 70%;
+	}
+	.movie-scrollable {
+		height: 420px;
+		width: 100%;
+	}
+}
 @media (max-width: 320px) {
+	.main-content {
+		max-height: 420px;
+	}
+	.mall-scrollable {
+		height: 284px !important;
+		position: absolute !important;
+		top: 95px !important;
+		right: 0 !important;
+		left: 0 !important;
+	}
+	ul.menu {
+		position: absolute;
+		width: 91%;
+		left: 24px;
+	}
+	ul.features {
+		position: relative;
+		width: 86%;
+	}
+	.movie-scrollable {
+		height: 332px;
+		width: 100%;
+	}
 	.reveal-modal {
 		left: 34% !important;
 		margin-left: 0 !important;
 		top: 80% !important;
-	}
-	.main-content {
-		max-height: 420px;
 	}
 }

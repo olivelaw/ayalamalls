@@ -6,7 +6,7 @@ if (screen.width >= 320 && screen.width <= 720)  {
     * (c) Scott Jehl, scottjehl.com
     * MIT License
     */
-    // alert(screen.width);
+    // alert(screen.width + ' x ' + screen.height);
     (function( win ){
         var doc = win.document;
 
@@ -41,6 +41,17 @@ if (screen.width >= 320 && screen.width <= 720)  {
         }
     })( this );
 }
+// if((Browser.Platform.ios) || (Browser.Platform.webos) || (Browser.Platform.android)) {
+//     //For iPhone and Andriod To remove Address bar when viewing website on Safari Mobile
+//     // When ready...
+//     window.addEventListener("load",function() {
+//       // Set a timeout...
+//       setTimeout(function(){
+//         // Hide the address bar!
+//         window.scrollTo(0, 1);
+//       }, 0);
+//     });
+// }
 
 function goBackToMallFeatures() {
     window.location.href = "mall_features.html";
