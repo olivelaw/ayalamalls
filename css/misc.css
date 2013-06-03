@@ -124,7 +124,6 @@ a, a:hover {
 
 	display: block;
 	height: 45px;
-	position: relative;
 	width: 100% !important;
 }
 div.logo {
@@ -501,7 +500,8 @@ ul.main-nav a#prefs.active {
 	border-top: 2px solid #51656a;
 }
 .search-store {
-	float: left;
+	position: absolute;
+	top: 0px;
 }
 .search input[type="text"],
 .search-store input[type="text"] {
@@ -556,7 +556,7 @@ ul.main-nav a#prefs.active {
 }
 .prefs-wrapper {
 	position: relative;
-	top: 85px;
+	top: 20px;
 }
 .prefs-header,
 .offers-header,
@@ -894,13 +894,13 @@ ul.main-nav a#prefs.active {
 
 /* --- STORES --- */
 .stores-container {
-	margin: 4% 0 2% 5.5%;
+	position: relative;
+	top: 110px;
+	margin: 0 auto;
 	width: 90%;
 }
 .stores-container .scrollable {
 	height: 340px;
-	float: left;
-	margin-top: 20px;
 }
 .filter {
 	background: rgb(196,207,208); /* Old browsers */
@@ -916,9 +916,9 @@ ul.main-nav a#prefs.active {
 
 	display: block;
 	height: 45px;
-	position: relative;
+	position: absolute;
+	top: 45px;
 	width:100%;
-	float: left;
 }
 .toolbar {
 	width: 100%;
@@ -1391,6 +1391,7 @@ ul.events {
 /* --- LOGIN --- */
 .login-wrapper {
 	height: 306px;
+	top: 85px;
 }
 .login-register {
 	width: 99%;
@@ -1479,6 +1480,9 @@ ul#ads_slideshow li a img {
 	.plot { margin-top: 3%;}
 	.blue-green-label { font-size: 18px; }
 	.terms-disclaimer { font-size: 16px; }
+	.stores-container .scrollable {
+		height: 240px;
+	}
 	.search-store input { width: 83%; }
 	.filter-btn { width: 44% !important; }
 	.btn-group { margin-left: 3%; }
@@ -1538,6 +1542,9 @@ ul#ads_slideshow li a img {
 		height: 420px;
 		width: 100%;
 	}
+	.stores-container .scrollable {
+		height: 324px;
+	}
 }
 @media (max-width: 320px) {
 	.main-content {
@@ -1568,4 +1575,7 @@ ul#ads_slideshow li a img {
 		margin-left: 0 !important;
 		top: 80% !important;
 	}
+	.stores-container .scrollable {
+		height: 240px;
+		}
 }

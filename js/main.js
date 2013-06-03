@@ -41,17 +41,6 @@ if (screen.width >= 320 && screen.width <= 720)  {
         }
     })( this );
 }
-// if((Browser.Platform.ios) || (Browser.Platform.webos) || (Browser.Platform.android)) {
-//     //For iPhone and Andriod To remove Address bar when viewing website on Safari Mobile
-//     // When ready...
-//     window.addEventListener("load",function() {
-//       // Set a timeout...
-//       setTimeout(function(){
-//         // Hide the address bar!
-//         window.scrollTo(0, 1);
-//       }, 0);
-//     });
-// }
 
 function goBackToMallFeatures() {
     window.location.href = "mall_features.html";
@@ -80,3 +69,14 @@ function goBackToSpecificPage(feature_id) {
         window.location.href = "cinema.html";
     } 
 }
+
+//lock to portrait orientaion 
+// window.addEventListener("orientationchange", function() {
+//     if (window.orientation == 90 || window.orientation == -90) {
+//         $('body').hide();
+//         alert('Landscape mode is not supported. This is best viewed in portrait mode');
+//     }
+//     else {
+//         $('body').show();
+//     }
+// }, false);
